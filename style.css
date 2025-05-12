@@ -1,0 +1,219 @@
+body {
+    background-color: #c9b8f4; /* Entire page background */
+  }
+.badge-custom {
+    padding: 0.5em 0.75em;
+    font-size: 0.75rem;
+  }
+  .news-meta {
+    font-size: 0.85rem;
+    color: gray;
+  }
+  .news-list-item {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .category-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+  }
+  .category-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  .category-overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+  }
+
+  .editors-pick {
+    padding: 3rem 1rem;
+  }
+  .editor-box h6 {
+    color: #6f6e6e;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+  .editor-box h2 {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .story-category {
+    font-size: 0.75rem;
+    color: #4c4c4c;
+    text-transform: uppercase;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+  }
+  .story-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+  .divider {
+    border-top: 1px solid #acabab;
+    margin: 1rem 0;
+  }
+  .editor-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+  }
+
+  .news-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .category {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #6c757d;
+  }
+  .news-title {
+    font-weight: bold;
+  }
+  .view-all {
+    text-align: right;
+    font-weight: bold;
+  }
+  .news-date {
+    color: #6c757d;
+    font-size: 0.75rem;
+  }
+
+  .con_color{
+    background-color: #f48653;
+      color: #000;
+  }
+
+  .section-title {
+    font-weight: 700;
+  }
+  .news-meta {
+    font-size: 0.75rem;
+    color: #6c757d;
+    text-transform: uppercase;
+  }
+  .featured-article {
+    position: relative;
+    color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .featured-article .overlay {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0));
+    width: 100%;
+    padding: 1rem;
+  }
+  .author-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #f2994a;
+    color: white;
+    font-size: 0.7rem;
+    padding: 4px 8px;
+    border-radius: 12px;
+  }
+  .news-card img {
+    border-radius: 8px;
+  }
+
+  .t_s{
+    font-size: 10px;
+    font-weight: 600;
+    color: hsl(0, 0%, 99%);
+    opacity: 0.7;
+  }
+
+  .t_s1{
+    font-size: 30px;
+  }
+
+  .admin_info2{
+    font-size: 10px;
+    font-weight: 600;
+    color: hsl(0, 0%, 99%);
+    opacity: 0.7;
+    margin-top: -5px;
+  }
+
+  .footer-section {
+    padding: 3rem 1rem;
+    border-top: 1px solid #444;
+  }
+  .form-control {
+    background-color: #111;
+    border: none;
+    color: #fff;
+  }
+  .form-control::placeholder {
+    color: #ccc;
+  }
+  .subscribe-btn {
+    background-color: #f2994a;
+    color: #000;
+    border: none;
+  }
+  .footer-links h6 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+  .social-link {
+    border-top: 1px solid #222;
+    padding: 0.75rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+  }
+  .social-link i {
+    margin-right: 8px;
+  }
+  .social-icons {
+    border-left: 1px solid #333;
+    padding-left: 1.5rem;
+  }
+
+  .color_for_footer{
+    background-color: #000;
+      color: #fff;
+  }
+
+  .footer_last{
+    padding-right: 100px;
+  }
+
+  .footer_logo{
+    font-size: 30px;
+    font-weight: 900;
+    color: hsl(0, 0%, 99%);
+  }
