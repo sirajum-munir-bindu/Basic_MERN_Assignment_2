@@ -8,6 +8,7 @@
     <!--Inline CSS-->
 
     <link rel="stylesheet" href="./style_next.css" />
+    <link rel="stylesheet" href="./style.css" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -16,9 +17,13 @@
       integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
       crossorigin="anonymous"
     />
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    
+    <!--Nav Bar-->
     <div class="container">
       <nav class="navbar navbar-dark bg-white">
         <div class="container-fluid">
@@ -48,6 +53,541 @@
         </div>
       </div>
     </div>
+    <nav
+      class="navbar navbar-expand-lg bg-body-white justify-content-center border-top border-bottom border-light-subtle"
+    >
+      <div class="container">
+        <div class="d-flex flex-column align-items-center w-100">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav text-center">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="#">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--Main Content-->
+
+    <div class="container py-5 con_1">
+      <div class="row">
+        <!-- Main Article -->
+        <div class="col-lg-8">
+          <div class="main-article">
+            <img
+              src="./media/img-20.jpg"
+              alt="Main article image"
+              class="mb-3"
+            />
+            <h2>
+              Global Climate Summit Yields Mixed Results on Key Agreements
+            </h2>
+
+            <div class="con_2 col-lg-8">
+              <p>
+                The global stock market has reached unprecedented levels, buoyed
+                by optimistic economic forecasts and strong corporate earnings.
+              </p>
+              <div class="author-info col-lg-4">
+                <img src="./media/img-16.avif" alt="Author" />
+                <div>
+                  <strong>Michael Brown</strong><br />
+                  <small>December 16, 2024</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+          <div class="sidebar">
+            <div class="sidebar-article">
+              <img src="./media/img-21.jpg" alt="Stock Market" />
+              <h6 class="mt-2 mb-1">
+                Stock Market Hits Record High Amid Economic Optimism
+              </h6>
+              <small>Business | 6 Min</small>
+            </div>
+            <div class="sidebar-article">
+              <img src="./media/img-10.jpg" alt="Tech Regulations" />
+              <h6 class="mt-2 mb-1">
+                New Regulations Put Tech Giants Under the Spotlight
+              </h6>
+              <small>Technology | 6 Min</small>
+            </div>
+            <div class="sidebar-article">
+              <img src="./media/img-19.jpg" alt="Blockchain" />
+              <h6 class="mt-2 mb-1">
+                Blockchain Beyond Cryptocurrency: Revolutionizing Industries
+              </h6>
+              <small>Technology | 5 Min</small>
+            </div>
+            <div class="sidebar-article">
+              <img src="./media/img-15.jpg" alt="Health" />
+              <h6 class="mt-2 mb-1">Health Innovations to Watch in 2024</h6>
+              <small>Health | 7 Min</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="section-title">Latest News</h2>
+          <a href="#" class="text-dark text-decoration-none fw-semibold"
+            >View All</a
+          >
+        </div>
+  
+        <div class="row g-4">
+            <!-- Right 1/3 (featured post) -->
+          <div class="col-lg-7">
+            <div class="">
+              <img
+                src="./media/img-22.jpg"
+                class="img-fluid"
+                alt="VR headset user"
+              />
+              <div class="overlay">
+                <div class="news-meta mb-1">Jan 25, 2025</div>
+                <h5>
+                  Future-focused an in-depth look at cutting-edge tech trends
+                </h5>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Left 2/3 -->
+          <div class="col-lg-5">
+            <div class="row g-4">
+              <!-- Small cards -->
+              <div class="col-md-6">
+                <div class="news-card">
+                  <img
+                    src="./media/img-8.avif"
+                    class="img-fluid"
+                    alt="Smart homes"
+                  />
+                  <div class="news-meta mt-2">Technology — Feb 10, 2025</div>
+                  <h6 class="mt-1">
+                    Smart homes revolution how IoT is transforming living spaces
+                  </h6>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="news-card">
+                  <img
+                    src="./media/img-7.webp"
+                    class="img-fluid"
+                    alt="5G future"
+                  />
+                  <div class="news-meta mt-2">Technology — Jan 25, 2025</div>
+                  <h6 class="mt-1">
+                    The future of 5G connecting a world at lightning speed
+                  </h6>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="news-card">
+                  <img
+                    src="./media/img-13.webp"
+                    class="img-fluid"
+                    alt="Cybersecurity"
+                  />
+                  <div class="news-meta mt-2">Technology — Jan 25, 2025</div>
+                  <h6 class="mt-1">
+                    Cybersecurity at risk: the growing threat of digital breaches
+                  </h6>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="news-card">
+                  <img
+                    src="./media/img-8.avif"
+                    class="img-fluid"
+                    alt="VR education"
+                  />
+                  <div class="news-meta mt-2">Technology — Jan 25, 2025</div>
+                  <h6 class="mt-1">
+                    Transforming entertainment, education & beyond
+                  </h6>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          
+        </div>
+    </div>
+
+    <div class="container-fluid con_3 bg-danger">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 d-flex flex-column justify-content-end" style="height: 400px;">
+                    <h2 class="text-white">Blockchain Beyond Cryptocurrency: Revolutionizing Industries</h2>
+                    <p class="text-white">
+                        Smart city lritissue, the future of urban living, is here. Discover how technology is reshaping our cities. 
+                    </p>
+                    <div class="author-info col-lg-6  text-white">
+                        <img src="./media/img-17.webp" alt="Author" />
+                        <div>
+                          <strong>Michael Brown</strong><br />
+                          <small>December 16, 2024</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <img src="./media/img-24.jpg" width="900" alt="Author" class="img-fluid rounded" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 editors-pick">
+        <h3 class="mb-4">Editors Pick</h3>
+        <div class="row g-4">
+          <!-- Left column: Text content -->
+          <div class="col-lg-4">
+            <h4>5G Expansion: What It Means for Consumers and Businesses</h4>
+            <hr class="my-3">
+            <p>From faster downloads to smarter cities, 5G is reshaping global connectivity.</p>
+          </div>
+          <!-- Right column: Main image -->
+          <div class="col-lg-8">
+            <img src="./media/img-28.jpg" class="rounded" alt="5G Expansion">
+          </div>
+        </div>
+      
+        <!-- Bottom Row of 3 Articles -->
+        <div class="row g-4 mt-4">
+          <div class="col-md-4">
+            <img src="./media/img-27.jpg" class="rounded" alt="Cricket">
+            <div class="article-meta mt-2">Sports |  13 Min</div>
+            <div class="small-article-title mt-1">Cricket World Cup: Highlights from an Action-Packed Week</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./media/img-26.jpg" class="rounded" alt="Sleep Science">
+            <div class="article-meta mt-2">Technology |  5 Min</div>
+            <div class="small-article-title mt-1">The Science of Sleep: How to Rest Better in a 24/7 World</div>
+          </div>
+          <div class="col-md-4">
+            <img src="./media/img-11.jpg" class="rounded" alt="Space Exploration">
+            <div class="article-meta mt-2">Technology |  9 Min</div>
+            <div class="small-article-title mt-1">Exploring the Future of Space Exploration Beyond Mars</div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="section-title">Technology</h2>
+          <a href="#" class="text-dark text-decoration-none fw-semibold"
+            >View All</a
+          >
+        </div>
+  
+        <div class="container py-5">
+          <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg-4">
+                <div class="featured-article">
+                    <img
+                      src="./media/img-19.jpg"
+                      class="img-fluid"
+                      alt="VR headset user"
+                    />
+                    <div class="overlay">
+                      <div class="news-meta mb-1">Jan 25, 2025</div>
+                      <h5>
+                        Future-focused an in-depth look at cutting-edge tech trends
+                      </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4">
+                <div class="">
+                    <img
+                      src="./media/img-25.jpg"
+                      class="img-fluid"
+                      alt="VR headset user"
+                    />
+                    <div class="overlay">
+                      <div class="news-meta mb-1">Jan 25, 2025 | 5 min</div>
+                      <h5>
+                        Future-focused an in-depth look at cutting-edge tech trends
+                      </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4">
+                <div class="">
+                    <img
+                      src="./media/img-24.jpg"
+                      class="img-fluid"
+                      alt="VR headset user"
+                    />
+                    <div class="overlay">
+                      <div class="news-meta mb-1">Jan 25, 2025 | 5 min</div>
+                      <h5>
+                        Future-focused an in-depth look at cutting-edge tech trends
+                      </h5>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="section-title">Staff Writers</h2>
+          <a href="#" class="text-dark text-decoration-none fw-semibold"
+            >View All</a
+          >
+        </div>
+  
+        <div class="container py-5">
+          <div class="row g-4">
+            <div class="col-6 col-md-3 col-lg-3">
+                <div class="">
+                    <img
+                      src="./media/img-16.avif"
+                      class="img-fluid"
+                      alt="VR headset user"
+                    />
+                    <div class="overlay">
+                      <div class="news-meta mb-1"><b>Ethan COllins</b></div>
+                      <h5>
+                        Senior Writer
+                      </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+                <div class="">
+                    <img
+                      src="./media/img-30.jpg"
+                      class="img-fluid"
+                      alt="VR headset user"
+                    />
+                    <div class="overlay">
+                      <div class="news-meta mb-1"><b>Snlia Rahman</b></div>
+                      <h5>
+                        Author
+                      </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+                <div class="">
+                    <img
+                      src="./media/img-17.webp"
+                      class="img-fluid"
+                      alt="VR headset user"
+                    />
+                    <div class="overlay">
+                      <div class="news-meta mb-1"><b>Mical Brown</b></div>
+                      <h5>
+                        Content Writer
+                      </h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-3 col-lg-3">
+                <div class="">
+                    <img
+                      src="./media/img-29.jpg"
+                      class="img-fluid"
+                      alt="VR headset user"
+                    />
+                    <div class="overlay">
+                      <div class="news-meta mb-1"><b>Launa Benntet</b></div>
+                      <h5>
+                        Editor
+                      </h5>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5 editors-pick">
+
+        <h3 class="mb-4">Articles & Resources</h3>
+        <div class="row g-4">
+          <!-- Left column: Text content -->
+          <div class="col-lg-6">
+
+            <p>technology   December 16.2024</p>
+
+            <h4>5 Cutting-Edge Technology in Education Transforming How WE Learn</h4>
+
+            <p class="text-danger">See more</p>
+            
+            
+            
+          </div>
+          <!-- Right column: Main image -->
+          <div class="col-lg-6">
+            <img src="./media/img-31.jpg" class="rounded" alt="5G Expansion">
+          </div>
+          <hr class="my-3">
+        </div>
+
+        <div class="row g-4">
+            <!-- Left column: Text content -->
+            <div class="col-lg-6">
+  
+              <p>Health | December 16.2024</p>
+  
+              <h4>How AI is Revolutionizing Healthcare: Improving Diagnoslica and Patient Care</h4>
+  
+              <p class="text-danger">See more</p>
+              
+              
+              
+            </div>
+            <!-- Right column: Main image -->
+            <div class="col-lg-6">
+              <img src="./media/img-32.jpg" class="rounded" alt="5G Expansion">
+            </div>
+            <hr class="my-3">
+          </div>
+  
+          <div class="row g-4">
+            <!-- Left column: Text content -->
+            <div class="col-lg-6">
+  
+              <p>Business |  December 16.2024</p>
+  
+              <h4>The Rise of Remote work: THe Shift to Flexible Work Environments</h4>
+  
+              <p class="text-danger">See more</p>
+              
+            </div>
+            <!-- Right column: Main image -->
+            <div class="col-lg-6">
+              <img src="./media/img-33.jpg" class="rounded" alt="5G Expansion">
+            </div>
+            <hr class="my-3">
+          </div>
+  
+
+    </div>
+
+    <section class="bg-danger text-white py-5">
+        <div class="container">
+          <div class="row d-flex justify-content-between align-items-center">
+            <!-- Left Column -->
+            <div class="col-md-6 mb-4 mb-md-0">
+              <h3 class="fw-bold">Stay informed with our latest news and updates.</h3>
+              <p class="mb-1">Get breaking news and curated stories delivered to your inbox every day.</p>
+              <p class="mb-0">Be the first to know what's happening around the world.</p>
+            </div>
+            <!-- Right Column -->
+            <div class="col-md-4">
+              <form>
+                <div class="mb-2">
+                  <input type="email" class="form-control" placeholder="Enter your email" required>
+                </div>
+                <div>
+                  <button type="submit" class="btn btn-dark w-100">Sign Up</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer class="footer-dark pt-5 pb-4">
+        <div class="container">
+          <!-- Logo and Nav -->
+          <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3 flex-wrap">
+            <h4 class="fw-bold">JOY<span class="text-white">NEWS</span></h4>
+            <nav class="nav gap-3">
+              <a class="nav-link text-white" href="#">Entertainment</a>
+              <a class="nav-link text-white" href="#">Sports</a>
+              <a class="nav-link text-white" href="#">Politics</a>
+              <a class="nav-link text-white" href="#">Business</a>
+              <a class="nav-link text-white" href="#">Technology</a>
+              <a class="nav-link text-white" href="#">Health</a>
+            </nav>
+          </div>
+      
+          <!-- Main Content -->
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dfddfh</p>
+              <div class="d-flex gap-3">
+                <img src="./media/img-16.avif" class="img-fluid photo_size" alt="PHOTO"/>
+                <img src="./media/img-17.webp" class="img-fluid photo_size" alt="PHOTO" />
+                <img src="./media/img-26.jpg" class="img-fluid photo_size" alt="PHOTO" />
+              </div>
+            </div>
+            <div class="col-md-2 mb-4">
+              <h6 class="text-light">Pages</h6>
+              <ul class="list-unstyled">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Authors</a></li>
+                <li><a href="#">Podcast</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 mb-4">
+                <div class="">
+                    <h6 class="text-light">Contact Us</h6>
+                    <p>hello@example.com</p>
+                    <p>+1 (406) 555-0120</p>
+                  </div>
+                  <div class="">
+                    <h6 class="text-light">Follow Us</h6>
+                    <div class="social-icons d-flex">
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+      
+          <!-- Bottom Footer -->
+          <div class="d-flex justify-content-between align-items-center border-top pt-3 mt-4 flex-wrap">
+            <p class="mb-0">&copy; 2025 Joynews - Work by Omnix. Made with Webflow.</p>
+            <div class="d-flex gap-3">
+              <a href="#">Style Guide</a>
+              <a href="#">Change Log</a>
+            </div>
+          </div>
+        </div>
+      </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
